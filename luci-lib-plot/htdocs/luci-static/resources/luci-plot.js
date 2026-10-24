@@ -15,6 +15,13 @@
 'use strict';
 'require baseclass';
 
+if (!document.querySelector('link[href*="luci-plot.css"]')) {
+    document.head.appendChild(E('link', {
+        rel: 'stylesheet',
+        href: L.resource('luci-plot.css')
+    }));
+}
+
 return (() => {
     const SVG_NS = 'http://www.w3.org/2000/svg';
 
