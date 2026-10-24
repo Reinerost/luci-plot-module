@@ -1,24 +1,21 @@
 # luci-plot-module
-Native OpenWrt LuCI module for the luci-plot SVG plotting library
 
-This project adapts luci-plot to the native LuCI JavaScript module system.
+Native OpenWrt LuCI module for the luci-plot SVG plotting library.
 
-Goals
+This project adapts [luci-plot](https://github.com/Reinerost/luci-plot) to the native LuCI JavaScript module system.
 
-Integrate with LuCI's native module loader.
+## Goals
 
-Preserve the existing luci-plot API and functionality.
+- Integrate with LuCI's native module loader.
+- Preserve the existing luci-plot API and functionality.
+- Provide a reusable plotting module for LuCI applications.
+- Package the module as `luci-lib-plot`.
+- Support the migration of `luci-app-statistics` from RRDTool-generated PNG graphs to client-side SVG plots.
 
-Provide a reusable plotting module for LuCI applications.
-
-Package the module as luci-lib-plot.
-
-Support the migration of luci-app-statistics from RRDTool-generated PNG graphs to client-side SVG plots.
-
-Status
+## Status
 
 Work in progress.
 
-License
+## License
 
 Apache License 2.0.
