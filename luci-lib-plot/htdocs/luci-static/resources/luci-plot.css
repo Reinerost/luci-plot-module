@@ -66,6 +66,21 @@ body {
 .luci-plot-series-2 {
     stroke: #859900;
 }
+.luci-plot-series-3 {
+    stroke: #b58900;
+}
+
+.luci-plot-series-4 {
+    stroke: #6c71c4;
+}
+
+.luci-plot-series-5 {
+    stroke: #2aa198;
+}
+
+.luci-plot-series-6 {
+    stroke: #d33682;
+}
 
 .luci-plot-legend {
     display: flex;
@@ -96,6 +111,22 @@ body {
 
 .luci-plot-marker-2 {
     background: #859900;
+}
+
+.luci-plot-marker-3 {
+    background: #b58900;
+}
+
+.luci-plot-marker-4 {
+    background: #6c71c4;
+}
+
+.luci-plot-marker-5 {
+    background: #2aa198;
+}
+
+.luci-plot-marker-6 {
+    background: #d33682;
 }
 
 /* Hover */
